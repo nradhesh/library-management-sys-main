@@ -1,0 +1,35 @@
+{
+  "name": "library-management-system-frontend",
+  "version": "1.0.0",
+  "description": "A frontend application for managing a library system using React.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "homepage": ".",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
