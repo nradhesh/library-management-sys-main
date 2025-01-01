@@ -20,7 +20,15 @@ function UserList() {
           </li>
         ))}
       </ul>
+      <ul>
+        {users.map(user => (
+          <li key={user.id}>
+            {user.name} - Borrowed Books: {user.borrowed_books}
+          </li>
+        ))}
+      </ul>
     </div>
+    
   );
 }
 
