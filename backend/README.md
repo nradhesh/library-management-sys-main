@@ -7,3 +7,5 @@ A FastAPI-based backend for the Library Management System. Provides APIs for man
 1. Clone the repository:
 
    git clone <repository-url>
+
+2. Go to the directory
