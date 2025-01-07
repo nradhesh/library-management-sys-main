@@ -8,7 +8,7 @@ function BookList() {
     axios.get("/books")
       .then(response => setBooks(response.data))
       .catch(error => console.error("Error fetching books:", error));
-  }, []);
+  }, [books]);
 
   return (
     <div>
