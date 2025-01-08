@@ -6,6 +6,7 @@ class BookBase(BaseModel):
     isbn: str
 
 class BookCreate(BookBase):
+    name:name
     pass
 
 class Book(BookBase):
