@@ -38,6 +38,6 @@ def send_notifications():
     print("Checking for overdue books...")
     check_overdue_books()
     print("Notifications sent.")
-
+# calling the main
 if __name__ == "__main__":
     send_notifications()
