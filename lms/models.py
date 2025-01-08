@@ -1,9 +1,9 @@
 import sqlite3
 
-#initialised db name
+#initialised the db name
 DB_NAME = "library.db"
 
-#initialised db table creation
+#initialization of table creation
 def init_db():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
