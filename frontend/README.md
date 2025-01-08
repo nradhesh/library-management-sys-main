@@ -1,6 +1,6 @@
 # Library Management System
 
-This project is a Library Management System built using React.js. It provides a user-friendly interface for managing books, users, and notifications related to borrowing and returning books.
+This project is a Library Management System built using React.js. It provides a user-friendly interface for managing books, users, and notifications related to borrowing and returning the books.
 
 ## Features
 
