@@ -13,3 +13,5 @@ A FastAPI-based backend for the Library Management System. Provides APIs for man
 
 3. Run the program
    python main.py
+##Technology used
+Python
