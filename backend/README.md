@@ -20,4 +20,5 @@ A FastAPI-based backend for the Library Management System. Provides APIs for man
 
 4. Run the program
 
-   python main.py
+   uvicorn app.main:app --reload
+   
