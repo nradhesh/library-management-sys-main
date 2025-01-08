@@ -6,6 +6,10 @@ A FastAPI-based backend for the Library Management System. Provides APIs for man
 ## Installation
 1. Clone the repository:
 
-   git clone <repository-url>
+   git clone nradhesh/library-management-sys-main/
 
-2. Go to the directory
+2. Install the requirements:
+   pip install requirements
+
+3. Run the program
+   python main.py
