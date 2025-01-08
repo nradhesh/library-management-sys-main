@@ -8,8 +8,16 @@ A FastAPI-based backend for the Library Management System. Provides APIs for man
 
    git clone nradhesh/library-management-sys-main/
 
-2. Install the requirements:
-   pip install requirements
+2. Create virtual environment:
 
-3. Run the program
+   pip install requirements
+   source venv/bin//activate
+
+
+3. Install the requirements:
+
+   pip install -r requirements.txt
+
+4. Run the program
+
    python main.py
