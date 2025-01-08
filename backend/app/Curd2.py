@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 # SQLite Database URL
 DATABASE_URL = "sqlite:///./library.db"
 
-# Database engine
+# Database engine intialization
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 # Session and Base
